@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#05070b"/>
+      <stop offset="1" stop-color="#090a12"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#3b82f6" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#34d399" stop-opacity="0.14"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg)"/>
+  <circle cx="220" cy="120" r="220" fill="url(#glow)"/>
+  <g fill="none" stroke="#ffffff" stroke-opacity="0.12" stroke-width="14" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M220 560H980"/>
+    <rect x="280" y="410" width="640" height="160" rx="36"/>
+    <path d="M420 410V300"/>
+    <path d="M600 410V270"/>
+    <path d="M780 410V305"/>
+    <path d="M360 490H840"/>
+  </g>
+  <text x="64" y="92" fill="#ffffff" fill-opacity="0.75" font-family="system-ui,Segoe UI,Roboto,Arial" font-size="28" font-weight="600">Tobias Tech Hub</text>
+  <text x="64" y="132" fill="#ffffff" fill-opacity="0.45" font-family="system-ui,Segoe UI,Roboto,Arial" font-size="18">Stable Coverage</text>
+</svg>
+

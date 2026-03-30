@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#05070b"/>
+      <stop offset="1" stop-color="#090a12"/>
+    </linearGradient>
+    <radialGradient id="r" cx="50%" cy="35%" r="70%">
+      <stop offset="0" stop-color="#0ea5e9" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#34d399" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg)"/>
+  <rect width="1200" height="800" fill="url(#r)"/>
+  <g fill="none" stroke="#ffffff" stroke-opacity="0.12">
+    <rect x="180" y="220" width="840" height="420" rx="28" stroke-width="14"/>
+    <path d="M230 300H970" stroke-width="10" stroke-linecap="round"/>
+    <path d="M230 360H790" stroke-width="10" stroke-linecap="round"/>
+    <path d="M230 420H900" stroke-width="10" stroke-linecap="round"/>
+    <path d="M230 480H740" stroke-width="10" stroke-linecap="round"/>
+    <path d="M230 540H880" stroke-width="10" stroke-linecap="round"/>
+  </g>
+  <text x="64" y="92" fill="#ffffff" fill-opacity="0.75" font-family="system-ui,Segoe UI,Roboto,Arial" font-size="28" font-weight="600">Tobias Tech Hub</text>
+  <text x="64" y="132" fill="#ffffff" fill-opacity="0.45" font-family="system-ui,Segoe UI,Roboto,Arial" font-size="18">Business-grade Build</text>
+</svg>
+

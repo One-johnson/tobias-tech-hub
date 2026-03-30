@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#05070b"/>
+      <stop offset="1" stop-color="#0b1020"/>
+    </linearGradient>
+    <radialGradient id="g" cx="70%" cy="25%" r="70%">
+      <stop offset="0" stop-color="#0ea5e9" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#34d399" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg)"/>
+  <rect width="1200" height="800" fill="url(#g)"/>
+  <g fill="none" stroke="#ffffff" stroke-opacity="0.12" stroke-width="14" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="220" y="420" width="760" height="170" rx="32"/>
+    <path d="M300 505H900"/>
+    <g stroke-width="10">
+      <path d="M310 545H360"/>
+      <path d="M380 545H430"/>
+      <path d="M450 545H500"/>
+      <path d="M520 545H570"/>
+      <path d="M590 545H640"/>
+      <path d="M660 545H710"/>
+      <path d="M730 545H780"/>
+      <path d="M800 545H850"/>
+    </g>
+  </g>
+  <text x="64" y="92" fill="#ffffff" fill-opacity="0.75" font-family="system-ui,Segoe UI,Roboto,Arial" font-size="28" font-weight="600">Tobias Tech Hub</text>
+  <text x="64" y="132" fill="#ffffff" fill-opacity="0.45" font-family="system-ui,Segoe UI,Roboto,Arial" font-size="18">Gigabit Switch</text>
+</svg>
+
