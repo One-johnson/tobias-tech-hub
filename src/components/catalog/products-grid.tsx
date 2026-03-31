@@ -407,15 +407,19 @@ export function ProductsGrid({
         ) : (
           <Carousel
             className="mx-auto w-full max-w-[1100px]"
-            options={{ loop: filtered.length > 3, align: "center", containScroll: "trimSnaps" }}
+            options={{
+              loop: filtered.length > 3,
+              align: "start",
+              containScroll: "trimSnaps",
+            }}
           >
-            <CarouselContent className="gap-3 px-4 sm:gap-4 sm:px-2">
+            <CarouselContent className="-ml-1 gap-3 px-3 sm:-ml-2 sm:gap-4 sm:px-2">
               {filtered.map((p) => (
                 <CarouselItem
                   key={p.id}
-                  className="flex min-w-0 flex-[0_0_68%] justify-center sm:flex-[0_0_46%] lg:flex-[0_0_28%]"
+                  className="min-w-0 pl-1 max-sm:flex-[0_0_calc((100vw-2.75rem)/2)] sm:pl-2 sm:flex-[0_0_46%] lg:flex-[0_0_28%]"
                 >
-                  <ProductCard product={p} />
+                  <ProductCard product={p} className="h-full w-full max-w-none mx-0" />
                 </CarouselItem>
               ))}
             </CarouselContent>

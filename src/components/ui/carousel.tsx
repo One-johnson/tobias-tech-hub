@@ -149,10 +149,7 @@ export function CarouselContent({ className, children }: { className?: string; c
 
 export function CarouselItem({ className, children }: { className?: string; children: React.ReactNode }) {
   return (
-    <div
-      data-slot="carousel-item"
-      className={cn("min-w-0 flex-[0_0_100%]", className)}
-    >
+    <div data-slot="carousel-item" className={cn("min-w-0", className)}>
       {children}
     </div>
   );

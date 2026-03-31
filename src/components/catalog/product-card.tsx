@@ -10,18 +10,31 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardFooter } from "@/components/ui/card";
 import { useCart } from "@/components/state/cart";
+import { cn } from "@/lib/utils";
 
-export function ProductCard({ product }: { product: Product }) {
+export function ProductCard({
+  product,
+  className,
+}: {
+  product: Product;
+  /** e.g. carousel: fill slide (`max-w-none w-full`) on small screens */
+  className?: string;
+}) {
   const { add } = useCart();
   return (
-    <Card className="mx-auto w-full max-w-[280px] overflow-hidden noise sm:mx-0 sm:max-w-none">
+    <Card
+      className={cn(
+        "mx-auto w-full max-w-[280px] overflow-hidden noise sm:mx-0 sm:max-w-none",
+        className,
+      )}
+    >
       <Link href={`/products/${product.slug}`} className="block">
         <div className="relative aspect-[4/3] w-full bg-black/20 sm:aspect-[16/11]">
           <Image
             src={product.images[0]?.src ?? "/products/laptop-1.svg"}
             alt={product.images[0]?.alt ?? product.name}
             fill
-            sizes="(max-width: 640px) 280px, (max-width: 1024px) 55vw, 380px"
+            sizes="(max-width: 640px) 45vw, (max-width: 1024px) 55vw, 380px"
             className="object-cover"
           />
           <div className="absolute left-1.5 top-1.5 flex flex-wrap items-center gap-1 sm:left-2 sm:top-2 sm:gap-1.5">
