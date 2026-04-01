@@ -12,6 +12,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
 import { AddToCartPanel } from "@/components/catalog/add-to-cart-panel";
+import { CategoryImageCarousels } from "@/components/catalog/category-image-carousels";
 import {
   Carousel,
   CarouselContent,
@@ -49,7 +50,7 @@ export default async function ProductDetailsPage({ params }: PageProps) {
   const gallery =
     product.images.length > 0
       ? product.images
-      : [{ src: "/products/laptop-1.svg", alt: product.name }];
+      : [{ src: "/products/laptop-hp-840.png", alt: product.name }];
 
   return (
     <div className="container-page py-10 md:py-12">
@@ -96,6 +97,8 @@ export default async function ProductDetailsPage({ params }: PageProps) {
           <p className="mt-3 text-center text-xs text-white/45 lg:text-left">
             Swipe or use arrows to view all photos. Actual finish may vary by batch.
           </p>
+
+          <CategoryImageCarousels className="mt-10" />
         </div>
 
         <div className="lg:col-span-5">
