@@ -31,7 +31,7 @@ export function ProductCard({
       <Link href={`/products/${product.slug}`} className="block">
         <div className="relative aspect-[4/3] w-full bg-black/20 sm:aspect-[16/11]">
           <Image
-            src={product.images[0]?.src ?? "/products/laptop-1.svg"}
+            src={product.images[0]?.src ?? "/products/laptop-hp-840.png"}
             alt={product.images[0]?.alt ?? product.name}
             fill
             sizes="(max-width: 640px) 45vw, (max-width: 1024px) 55vw, 380px"

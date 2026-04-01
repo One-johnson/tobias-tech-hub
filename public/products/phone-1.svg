@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1220"/>
+      <stop offset="1" stop-color="#0F2B2B"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="430" y1="210" x2="770" y2="690" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E5E7EB" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#E5E7EB" stop-opacity="0.04"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" rx="64" fill="url(#bg)"/>
+  <rect x="420" y="160" width="360" height="580" rx="56" fill="#0B0F19" stroke="#2A3445" stroke-width="6"/>
+  <rect x="450" y="205" width="300" height="490" rx="40" fill="url(#glass)" stroke="#3B475C" stroke-width="4"/>
+  <circle cx="600" cy="188" r="10" fill="#111827" stroke="#334155" stroke-width="3"/>
+  <rect x="560" y="710" width="80" height="14" rx="7" fill="#111827" stroke="#334155" stroke-width="3"/>
+  <path d="M468 260C520 240 580 232 650 242C724 252 760 286 752 334C744 382 672 402 602 392C532 382 470 406 460 458C450 510 500 550 580 560C660 570 740 548 780 520" stroke="#34D399" stroke-opacity="0.35" stroke-width="10" stroke-linecap="round"/>
+  <path d="M470 600C520 564 576 548 638 552C700 556 736 580 748 614C760 648 740 680 688 692C636 704 582 700 526 682" stroke="#60A5FA" stroke-opacity="0.28" stroke-width="10" stroke-linecap="round"/>
+  <text x="72" y="830" fill="#E5E7EB" fill-opacity="0.45" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="36" letter-spacing="0.08em">
+    PHONE PLACEHOLDER
+  </text>
+</svg>

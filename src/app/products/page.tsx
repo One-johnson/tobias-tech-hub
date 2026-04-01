@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { products, brands, categories } from "@/lib/catalog";
+import { CategoryImageCarousels } from "@/components/catalog/category-image-carousels";
 import { ProductsGrid } from "@/components/catalog/products-grid";
 import { ProductsPageSupport } from "@/components/catalog/products-page-support";
 
@@ -85,6 +86,8 @@ export default async function ProductsPage({
         </h1>
         <p className="mt-3 max-w-2xl text-white/70">{categoryCopy}</p>
       </div>
+
+      <CategoryImageCarousels className="mb-10" />
 
       <ProductsGrid
         products={products}

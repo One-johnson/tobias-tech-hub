@@ -62,7 +62,7 @@ export default function CartPage() {
                   <div key={product.id} className="flex flex-col gap-4 p-5 sm:flex-row">
                     <div className="relative h-24 w-full overflow-hidden rounded-xl border border-white/10 bg-white/5 sm:w-36">
                       <Image
-                        src={product.images[0]?.src ?? "/products/laptop-1.svg"}
+                        src={product.images[0]?.src ?? "/products/laptop-hp-840.png"}
                         alt={product.name}
                         fill
                         sizes="(max-width: 640px) 100vw, 144px"
