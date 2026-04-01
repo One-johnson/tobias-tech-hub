@@ -222,7 +222,7 @@ export function ProductsGrid({
             <Input
               value={query}
               onChange={(e) => setQuery(e.target.value)}
-              placeholder="Search laptops, accessories, networking…"
+              placeholder="Search laptops, accessories, monitors…"
               className="pl-9"
             />
           </div>

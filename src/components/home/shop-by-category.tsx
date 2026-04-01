@@ -17,12 +17,6 @@ const categories = [
     image: "/products/p7-1.jpg",
     description: "Mice, storage, and essentials to complete your setup.",
   },
-  {
-    title: "Networking",
-    href: "/products?category=Networking",
-    image: "/products/router-1.svg",
-    description: "Routers and switching for stable connectivity and coverage.",
-  },
 ] as const;
 
 export function ShopByCategory() {
@@ -40,7 +34,7 @@ export function ShopByCategory() {
         </div>
       </div>
 
-      <div className="mt-8 grid gap-6 md:grid-cols-3">
+      <div className="mt-8 grid gap-6 md:grid-cols-2">
         {categories.map((c) => (
           <Link
             key={c.title}

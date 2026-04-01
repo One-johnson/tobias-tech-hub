@@ -14,7 +14,7 @@ import { TestimonialsSection } from "@/components/home/testimonials-section";
 export const metadata: Metadata = {
   title: "Powering your digital world",
   description:
-    "Tobias Tech Hub—premium laptops, accessories, and networking in Accra, Ghana. Shop trusted brands with local support.",
+    "Tobias Tech Hub—premium laptops, accessories, and storage in Accra, Ghana. Shop trusted brands with local support.",
 };
 
 export default function Home() {

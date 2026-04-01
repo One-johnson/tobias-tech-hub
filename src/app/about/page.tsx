@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "About us",
   description:
-    "Tobias Tech Hub in Accra, Ghana: premium laptops, accessories, and networking with trusted guidance.",
+    "Tobias Tech Hub in Accra, Ghana: premium laptops, accessories, and storage with trusted guidance.",
 };
 
 export default function AboutPage() {
@@ -15,7 +15,7 @@ export default function AboutPage() {
       </h1>
       <p className="mt-4 max-w-3xl text-white/70">
         Tobias Tech Hub is a tech retail company based in Accra, Ghana. We specialize in laptops,
-        computer accessories, and networking devices—curated for performance, reliability, and
+        computer accessories, monitors, and storage—curated for performance, reliability, and
         value. Our mission is simple: help customers power their digital world with premium tech
         and trustworthy support.
       </p>

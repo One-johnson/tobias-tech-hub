@@ -17,7 +17,7 @@ export function AboutTeaser() {
                 Premium tech retail, backed by real support
               </h2>
               <p className="mt-3 max-w-3xl text-white/70">
-                Based in Accra, Ghana, we curate laptops, accessories, and networking gear for
+                Based in Accra, Ghana, we curate laptops, accessories, monitors, and storage for
                 professionals, students, and businesses—with guidance that makes buying tech easy.
               </p>
             </div>
