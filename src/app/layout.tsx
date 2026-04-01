@@ -6,7 +6,7 @@ import { AppShell } from "@/components/site/shell";
 import { getMetadataBase, getSiteOrigin } from "@/lib/env-public";
 
 const siteDescription =
-  "Premium laptops, accessories, and networking devices in Accra, Ghana. Powering your digital world.";
+  "Premium laptops, accessories, monitors, and storage in Accra, Ghana. Powering your digital world.";
 
 export const metadata: Metadata = {
   metadataBase: getMetadataBase(),
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     "Tobias Tech Hub",
     "Accra Ghana laptops",
     "computer accessories Accra",
-    "networking devices Ghana",
+    "computer monitors Ghana",
     "HP Dell Lenovo Apple",
   ],
 };

@@ -3,9 +3,9 @@ export const testimonials = [
     name: "Ama K.",
     role: "Small business owner, Accra",
     quote:
-      "Tobias Tech Hub helped me choose the right laptop and set up my network. Fast delivery and great after-sales support.",
+      "Tobias Tech Hub helped me choose the right laptop for my business. Fast delivery and great after-sales support.",
     rating: 5,
-    purchase: "Laptop + Router setup",
+    purchase: "Business laptop",
   },
   {
     name: "Yaw M.",
@@ -19,9 +19,9 @@ export const testimonials = [
     name: "Esi A.",
     role: "IT administrator",
     quote:
-      "Solid recommendations for networking gear. Everything worked out of the box and the build quality is premium.",
+      "Solid recommendations for our office laptops. Everything worked out of the box and the build quality is premium.",
     rating: 5,
-    purchase: "Switch + Wi‑Fi router",
+    purchase: "Office laptops",
   },
 ];
 
@@ -29,7 +29,7 @@ export const reasons = [
   {
     title: "Verified devices, premium quality",
     description:
-      "We curate reliable laptops, accessories, and networking devices from trusted brands and reputable suppliers.",
+      "We curate reliable laptops, accessories, monitors, and storage from trusted brands and reputable suppliers.",
   },
   {
     title: "Expert guidance",
@@ -60,11 +60,6 @@ export const services = [
     title: "Upgrades (SSD / RAM) & setup",
     description:
       "Speed up your device with storage and memory upgrades, plus clean software setup and optimization.",
-  },
-  {
-    title: "Networking (home/office)",
-    description:
-      "Routers, switches, cabling guidance, and coverage recommendations for stable connections.",
   },
   {
     title: "Accessories & bundles",

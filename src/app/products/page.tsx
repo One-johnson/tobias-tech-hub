@@ -30,7 +30,7 @@ export async function generateMetadata({
     initialCategory === "All" ? "Products catalog" : `${initialCategory} · Catalog`;
   const description =
     initialCategory === "All"
-      ? "Browse laptops, accessories, monitors, storage, and networking gear in Accra. Filter, sort, and order via WhatsApp."
+      ? "Browse laptops, accessories, monitors, and storage in Accra. Filter, sort, and order via WhatsApp."
       : `Shop ${initialCategory.toLowerCase()} from Tobias Tech Hub in Accra. Compare brands, prices, and stock—confirm on WhatsApp.`;
 
   return { title, description };
@@ -71,10 +71,8 @@ export default async function ProductsPage({
       ? "Choose the right performance tier for school, work, and business."
       : initialCategory === "Accessories"
         ? "Complete your setup with reliable essentials and productivity upgrades."
-        : initialCategory === "Networking"
-          ? "Improve coverage and stability with curated routers and switching."
-          : initialCategory === "All"
-            ? "Explore premium laptops, accessories, and networking devices—curated for performance, reliability, and value."
+        : initialCategory === "All"
+            ? "Explore premium laptops, accessories, monitors, and storage—curated for performance, reliability, and value."
             : "Explore curated options with premium quality and support.";
 
   return (

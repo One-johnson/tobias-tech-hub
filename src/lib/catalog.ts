@@ -2,11 +2,10 @@ export type ProductCategory =
   | "Laptops"
   | "Phones"
   | "Accessories"
-  | "Networking"
   | "Monitors"
   | "Storage";
 
-export type Brand = "HP" | "Dell" | "Lenovo" | "Apple" | "ASUS" | "Acer" | "TP-Link";
+export type Brand = "HP" | "Dell" | "Lenovo" | "Apple" | "ASUS" | "Acer";
 
 export type Product = {
   id: string;
@@ -24,13 +23,12 @@ export type Product = {
   images: Array<{ src: string; alt: string }>;
 };
 
-export const brands: Brand[] = ["HP", "Dell", "Lenovo", "Apple", "ASUS", "Acer", "TP-Link"];
+export const brands: Brand[] = ["HP", "Dell", "Lenovo", "Apple", "ASUS", "Acer"];
 
 export const categories: ProductCategory[] = [
   "Laptops",
   "Phones",
   "Accessories",
-  "Networking",
   "Monitors",
   "Storage",
 ];
@@ -733,66 +731,6 @@ export const products: Product[] = [
     images: [
       { src: "/products/mac-1.svg", alt: "Apple MacBook Air" },
       { src: "/products/mac-2.svg", alt: "Apple MacBook Air angled" },
-    ],
-  },
-  {
-    id: "p_tplink_ax53",
-    slug: "tp-link-archer-ax53-wifi6-router",
-    name: "TP-Link Archer AX53 Wi‑Fi 6 Router",
-    category: "Networking",
-    brand: "TP-Link",
-    priceGhs: 899,
-    rating: 4.6,
-    inStock: true,
-    shortDescription: "Fast, stable Wi‑Fi 6 for homes and small offices.",
-    description:
-      "Upgrade your network with Wi‑Fi 6 speed and better coverage. Great for streaming, video calls, and multiple device households.",
-    highlights: ["Wi‑Fi 6", "Dual-band", "MU‑MIMO", "Beamforming"],
-    specs: [
-      { label: "Standard", value: "Wi‑Fi 6 (802.11ax)" },
-      { label: "Bands", value: "Dual-band 2.4GHz + 5GHz" },
-      { label: "Coverage", value: "Beamforming + high-gain antennas" },
-      { label: "Security", value: "WPA3" },
-    ],
-    images: [
-      {
-        src: "/products/router-1.svg",
-        alt: "Networking router",
-      },
-      {
-        src: "/products/router-2.svg",
-        alt: "Wi‑Fi device close-up",
-      },
-    ],
-  },
-  {
-    id: "p_switch_8port",
-    slug: "gigabit-switch-8-port",
-    name: "8‑Port Gigabit Ethernet Switch",
-    category: "Networking",
-    brand: "TP-Link",
-    priceGhs: 249,
-    rating: 4.4,
-    inStock: true,
-    shortDescription: "Plug-and-play switching for fast wired networks.",
-    description:
-      "A compact switch for expanding your wired network in the office or at home. Ideal for CCTV, desktops, and routers.",
-    highlights: ["8× Gigabit ports", "Fanless", "Metal housing", "Energy efficient"],
-    specs: [
-      { label: "Ports", value: "8× RJ45 Gigabit" },
-      { label: "Design", value: "Fanless, silent" },
-      { label: "Setup", value: "Unmanaged (plug & play)" },
-      { label: "Housing", value: "Metal" },
-    ],
-    images: [
-      {
-        src: "/products/p6-1.jpg",
-        alt: "Ethernet and networking equipment",
-      },
-      {
-        src: "/products/p6-2.jpg",
-        alt: "Networking cables and hardware",
-      },
     ],
   },
   {

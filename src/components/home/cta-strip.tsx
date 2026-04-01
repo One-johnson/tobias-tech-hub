@@ -8,7 +8,7 @@ import { whatsappUrl } from "@/lib/site";
 
 export function CtaStrip() {
   const href = whatsappUrl(
-    "Hi Tobias Tech Hub, I need help choosing a laptop/accessory/networking device.",
+    "Hi Tobias Tech Hub, I need help choosing a laptop or accessory.",
   );
 
   return (

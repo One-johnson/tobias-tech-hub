@@ -21,7 +21,7 @@ export function SiteFooter() {
             </p>
             <p className="mt-2 max-w-md text-sm text-white/70">
               A premium tech retail company in Accra, Ghana—laptops, computer
-              accessories, and networking devices for work, school, and business.
+              accessories, monitors, and storage for work, school, and business.
             </p>
           </div>
           <div className="grid grid-cols-2 gap-10 md:col-span-7 md:grid-cols-3">

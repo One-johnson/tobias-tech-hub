@@ -20,8 +20,7 @@ type Tab = "Best sellers" | "New arrivals" | "Deals";
 function byCategoryMix(products: Product[]) {
   const laptops = products.filter((p) => p.category === "Laptops");
   const accessories = products.filter((p) => p.category === "Accessories");
-  const networking = products.filter((p) => p.category === "Networking");
-  return [...laptops.slice(0, 2), ...accessories.slice(0, 2), ...networking.slice(0, 2)].filter(Boolean);
+  return [...laptops.slice(0, 3), ...accessories.slice(0, 3)].filter(Boolean);
 }
 
 export function FeaturedProducts({ products }: { products: Product[] }) {
@@ -42,7 +41,7 @@ export function FeaturedProducts({ products }: { products: Product[] }) {
             Featured products
           </h2>
           <p className="mt-3 max-w-2xl text-white/70">
-            Curated picks across laptops, accessories, and networking.
+            Curated picks across laptops, accessories, and more.
           </p>
         </div>
         <div className="flex flex-col gap-3 sm:flex-row sm:items-center">

@@ -31,7 +31,7 @@ export function ProductsPageSupport() {
               <ul className="mt-5 grid gap-3 sm:grid-cols-2">
                 <li className="flex gap-3 text-sm text-white/75">
                   <PackageSearch className="mt-0.5 h-4 w-4 shrink-0 text-emerald-200/80" />
-                  <span>Sourcing help for laptops, accessories, and networking</span>
+                  <span>Sourcing help for laptops, accessories, monitors, and storage</span>
                 </li>
                 <li className="flex gap-3 text-sm text-white/75">
                   <Building2 className="mt-0.5 h-4 w-4 shrink-0 text-emerald-200/80" />

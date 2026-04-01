@@ -16,14 +16,14 @@ const slides = [
     eyebrow: "Premium tech retail in Accra, Ghana",
     headline: "Powering Your Digital World",
     description:
-      "Shop curated laptops, accessories, and networking devices from trusted brands—built for performance, reliability, and modern work.",
+      "Shop curated laptops, accessories, and storage from trusted brands—built for performance, reliability, and modern work.",
     imageSrc: "/products/p1-1.jpg",
     imageAlt: "Premium laptops and accessories",
     ctaPrimary: { label: "Shop Now", href: "/products" },
     ctaSecondary: { label: "Contact Us", href: "/contact" },
     rightTitle: "Browse best-sellers",
     rightBody:
-      "Explore premium laptops, accessories, and networking devices in one place.",
+      "Explore premium laptops, accessories, and monitors in one place.",
     rightPrimary: { label: "Open catalog", href: "/products" },
     rightSecondary: { label: "Talk to an expert", href: "/contact" },
   },
@@ -56,21 +56,6 @@ const slides = [
       "Complete your setup with a mouse, storage, and essentials for productivity.",
     rightPrimary: { label: "Shop accessories", href: "/products?category=Accessories" },
     rightSecondary: { label: "Chat on WhatsApp", href: "/contact" },
-  },
-  {
-    eyebrow: "Networking for home and business",
-    headline: "Stable connections. Better coverage.",
-    description:
-      "Routers, switches, and Wi‑Fi upgrades—recommended for your space with fast delivery and after-sales support.",
-    imageSrc: "/products/router-1.svg",
-    imageAlt: "Networking devices",
-    ctaPrimary: { label: "Shop Networking", href: "/products?category=Networking" },
-    ctaSecondary: { label: "Get Help Choosing", href: "/contact" },
-    rightTitle: "Networking support",
-    rightBody:
-      "Improve coverage and stability with the right router and switch for your space.",
-    rightPrimary: { label: "Shop networking", href: "/products?category=Networking" },
-    rightSecondary: { label: "Get recommendations", href: "/contact" },
   },
 ] as const;
 
@@ -157,12 +142,6 @@ export function HeroCarousel() {
                         className="rounded-full border border-white/10 bg-white/5 px-3 py-1 text-white/75 hover:bg-white/10"
                       >
                         Accessories
-                      </Link>
-                      <Link
-                        href="/products?category=Networking"
-                        className="rounded-full border border-white/10 bg-white/5 px-3 py-1 text-white/75 hover:bg-white/10"
-                      >
-                        Networking
                       </Link>
                       <Link
                         href="/products"
